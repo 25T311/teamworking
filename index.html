@@ -5,8 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
-<body>
-    <h1>情報コースのアピールポイント</h1>
+<body>  <header>
+            <h1>情報コースのアピールポイント</h1>
 
     <h2>１：幅広い分野を学ぶことができる</h2>
     <p>     香川大学創造工学部情報コースでは、インターネット、人工知能、情報セキュリティ、ヒューマンインタフェース、ソフトウェア工学、サービス工学、Webシステム開発など様々な分野について学ぶことができます。さらに、座学だけでなく、演習を通して実際に手を動かしながら学べるため、より深く実践的な理解が得られことができます。</p>
@@ -22,5 +22,65 @@
 
     <h2>参考文献</h2>
     <p>https://www.kagawa-u.ac.jp/kagawa-u_ead/course/security/?utm_source=chatgpt.com</p>
+
+    </div>
+        
+
+        <style>
+        body {
+             background-image: url();   
+
+        }
+
+        header {
+            position :fixed;
+            top: 0;
+            width: 100%;
+            z-index: 1000;
+        }
+
+        h1 {
+            display: flex;
+	        justify-content: center;
+	        align-items: center;
+	        text-align: center;
+            color: #494949;
+        }
+
+        h1::before,
+        h1::after {
+            content: '';
+	        width: 70px;
+	        height: 3px;
+	         background-color: #2980b9;
+        }
+
+        h1::before {
+            margin-right: 20px; 
+        }
+
+        h1::after {
+            margin-left: 20px; 
+        }
+
+        div{
+            margin-top: 100px;
+        }
+
+        h2 {
+            color: #2980b9;
+            border-left: 6px solid #2980b9;
+            padding-left: 12px;
+            margin-top: 30px;
+        }
+
+        p {
+            font-size: 1.1em;
+            color: #333;
+            padding-left: 10px;
+        }
+    </style>
 </body>
 </html>
+
+   
