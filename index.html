@@ -5,25 +5,77 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
-<body>
-    <img src="https://www.kagawa-u.ac.jp/themes/kagawa_ead/images/logo_kagawa-u_pc.png" width="300">
-    <img src="https://www.kagawa-u.ac.jp/themes/kagawa_ead/images/logo_ead_pc.png" width="300">
-    
-    <h1>情報コースのアピールポイント</h1>
+<body>  <header>
+        <h1>情報コースアピールポイント</h1>
+        </header>
+        
+        <div>
+            <h2>様々な分野が学べる</h2>
+        <p>情報セキュリティコースから名称が変更され、セキュリティに加えて様々な情報に関する分野について学ぶことができます。</p>
 
-    <h2>１：情報コース向けのサークル</h2>
-    <p>　　　同じコースの先輩とつながりを持ちやすく、大学の情報収集を簡単に行うことができる。
-        授業の難易度や先生方についてなどの同じコースならではの情報を知ることができ、勉強の分からないところも聞きやすい。
-    </p>
-    <h2>２：広い範囲の地域について知れる</h2>
-    <p>　　　キャンパスが離れていることでそれぞれのキャンパスの周辺を知ることができる。
+        <h2>選べるプログラム</h2>
+        <p>2年生から「情報システム・セキュリティプログラム」と「情報社会プログラム」に分かれ、自分が学びたいことを選んで学習できます。これにより、将来の選択肢の幅が広がります。</p>
 
-    </p>
-    <h2>３：女子生徒率の増加</h2>
-    <p>　　　徐々に女子生徒率が上がっており、女性であってもコースになじみやすい。
-        工学系の学部と聞くと男子生徒ばかりなのを想像する人が多いが、先輩から「今年女子生徒多いね」と声を掛けられるほど女子生徒が増えている。
-        女子生徒も男子生徒も学びやすい環境になっている。
-    </p>
-    
+        <h2>様々な演習</h2>
+        <p>チームワーキング演習などを通して、コミュニケーション能力・プレゼンテーション能力・批判的思考力などが身に付き、今後の研究や実社会でも役立ちます。</p>
+        </div>
+        
+
+        <style>
+        body {
+             background-image: url();   
+
+        }
+
+        header {
+            position :fixed;
+            top: 0;
+            width: 100%;
+            z-index: 1000;
+        }
+
+        h1 {
+            display: flex;
+	        justify-content: center;
+	        align-items: center;
+	        text-align: center;
+            color: #494949;
+        }
+
+        h1::before,
+        h1::after {
+            content: '';
+	        width: 70px;
+	        height: 3px;
+	        background-color: #2980b9;
+        }
+
+        h1::before {
+            margin-right: 20px; 
+        }
+
+        h1::after {
+            margin-left: 20px; 
+        }
+
+        div{
+            margin-top: 100px;
+        }
+
+        h2 {
+            color: #2980b9;
+            border-left: 6px solid #2980b9;
+            padding-left: 12px;
+            margin-top: 30px;
+        }
+
+        p {
+            font-size: 1.1em;
+            color: #333;
+            padding-left: 10px;
+        }
+    </style>
 </body>
 </html>
+
+   
